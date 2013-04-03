@@ -2,13 +2,17 @@ using UnityEngine;
 using System.Collections;
 
 public class HouseDriver : MonoBehaviour {
-	public float lr_speed = 5.0f;
-	public float forward_speed = 20.0f;
-	public float up_speed = 5.0f;
-	public float max_height = 180.0f;
+	// SET THESE IN THE INSPECTOR
+	public float lr_speed;
+	public float forward_speed;
+	public float up_speed;
+	public float max_height;
+	
+	private float base_speed;
 
 	// Use this for initialization
 	void Start () {
+		base_speed = forward_speed;
 	}
 	
 	// Update is called once per frame
@@ -28,5 +32,17 @@ public class HouseDriver : MonoBehaviour {
 		
 		// Z Axis - Built In (forward motion, affected by powerups/obstacles)
 		transform.position += transform.forward * forward_speed * Time.deltaTime;
+		
+		
+		// Timed speedups - pull the sails / storm winds
+		if (Input.GetKey (KeyCode.Alpha1)) {
+			forward_speed = base_speed;
+		}
+		if (Input.GetKey (KeyCode.Alpha2)) {
+			forward_speed = base_speed * 2.0f;
+		}
+		if (Input.GetKey (KeyCode.Alpha3)) {
+			forward_speed = base_speed * 2.6f;
+		}
 	}
 }

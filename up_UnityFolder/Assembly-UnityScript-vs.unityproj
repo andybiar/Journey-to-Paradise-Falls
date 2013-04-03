@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D06E8173-32BE-D206-B6EF-9B1FFE485017}</ProjectGuid>
+	<ProjectGuid>{FA6B2294-75B8-70AC-F86F-4BFF0087D9DA}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -71,6 +71,8 @@
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPlayerAnimation.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPushBodies.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonStatus.js" />
+     <Compile Include="Assets\AcceleratorGate.js" />
+     <Compile Include="Assets\Lightning.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\BloomAndLensFlares.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\CameraInfo.js" />
@@ -196,7 +198,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{EA800768-494E-05B5-87E2-046AC304F352}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{4ECFF277-D449-6E96-2023-55683CCB8C23}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

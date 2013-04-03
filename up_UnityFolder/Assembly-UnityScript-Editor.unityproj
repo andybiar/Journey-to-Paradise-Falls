@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{52B146B9-A266-7007-04AC-FEA42D4786C3}</ProjectGuid>
+	<ProjectGuid>{16BF8C63-FB7E-15E4-ED18-677C7C7E552C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -168,15 +168,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{EA800768-494E-05B5-87E2-046AC304F352}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{4ECFF277-D449-6E96-2023-55683CCB8C23}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{9EAB0809-9F18-EE96-339D-B06BE61FA7AD}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{024A3534-0F2A-3196-40D4-0B42E7D51217}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F7EFDB28-AA15-8F28-EC18-81B95598C3C6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{284F2182-BD10-EF75-472B-4E52C5642081}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{D06E8173-32BE-D206-B6EF-9B1FFE485017}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{FA6B2294-75B8-70AC-F86F-4BFF0087D9DA}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{5AB6E116-D679-A123-6EC0-C8796B878D76}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+      <Project>{B510027B-4720-7B47-B102-DE1D36261DFA}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
