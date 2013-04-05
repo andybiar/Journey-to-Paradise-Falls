@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+
+  <Folder>
+    <name>99 Luftballons</name>
+    <description>Created with &lt;a href="http://sketchup.google.com"&gt;Google SketchUp&lt;/a&gt;</description>
+    <visibility>1</visibility>
+    <LookAt>
+      <heading>359.5890939915</heading>
+      <tilt>51.4796275524</tilt>
+      <latitude>-12.1496545716</latitude>
+      <longitude>-77.02335940317</longitude>
+      <range>598.6017950885</range>
+      <altitude>633.0455998186</altitude>
+    </LookAt>
+    <Folder>
+      <name>Tour</name>
+      <Placemark>
+        <name>Scene 1</name>
+        <visibility>1</visibility>
+        <LookAt>
+          <heading>359.5890939915</heading>
+          <tilt>51.4796275524</tilt>
+          <latitude>-12.1496545716</latitude>
+          <longitude>-77.02335940317</longitude>
+          <range>598.6017950885</range>
+          <altitude>633.0455998186</altitude>
+        </LookAt>
+      </Placemark>
+    </Folder>
+    <Placemark>
+      <name>Model</name>
+      <description></description>
+      <Style id="default"/>
+      <Model>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <Location>
+          <latitude>-12.1506</latitude>
+          <longitude>-77.02431</longitude>
+          <altitude>0</altitude>
+        </Location>
+        <Orientation>
+          <heading>0.4259656761952</heading>
+          <tilt>0</tilt>
+          <roll>0</roll>
+        </Orientation>
+        <Scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </Scale>
+        <Link>
+          <href>models/untitled.dae</href>
+        </Link>
+      </Model>
+    </Placemark>
+  </Folder>
+
+</kml>

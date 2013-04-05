@@ -25,13 +25,13 @@ public class HouseDriver : MonoBehaviour {
 			transform.position -=  transform.right * lr_speed * Time.deltaTime;
 		}
 		
-		// Y Axis - Built In (up/down balloon movement)
+		// Built In (up/down balloon movement)
 		if (transform.position.y < max_height) {
-			transform.position += transform.up * up_speed * Time.deltaTime;
+			transform.position += transform.forward * up_speed * Time.deltaTime;
 		}
 		
-		// Z Axis - Built In (forward motion, affected by powerups/obstacles)
-		transform.position += transform.forward * forward_speed * Time.deltaTime;
+		// forward motion, affected by powerups/obstacles)
+		transform.position += (transform.up*-1) * forward_speed * Time.deltaTime;
 		
 		
 		// Timed speedups - pull the sails / storm winds
