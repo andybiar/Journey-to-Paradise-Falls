@@ -60,7 +60,6 @@
      <Compile Include="Assets\city_lowpoly\Standard Assets\Editor\Image Effects\TonemappingEditor.js" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
-     <None Include="Assets\3D Platformer Tutorial\Textures\Glass\glass.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
@@ -69,7 +68,6 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Rocks\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
-     <None Include="Assets\3D Platformer Tutorial\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Trees\Nobiax Tree Trunks\Nobiax Free Textures 22.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileLightningCloudShader.shader" />
@@ -92,6 +90,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileCloudLightingModel.cginc" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
      <None Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime.xml" />
@@ -124,6 +123,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\3d_warehouse\farmStuff\grainsilo\textures.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
      <None Include="Assets\Rocks\Nobiax Free Textures 13 &amp; 14\Nobiax Free Textures 13 &amp; 14.txt" />
      <None Include="Assets\Plugins\Cloud System\Release Notes.txt" />
@@ -147,6 +147,8 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Roads\Shaders\EasyRoads3D-Road-Edit-Mode.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
      <None Include="Assets\Plugins\Cloud System\Readme.txt" />
