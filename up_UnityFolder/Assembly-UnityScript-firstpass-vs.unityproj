@@ -62,16 +62,16 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
      <None Include="Assets\Roads\Shaders\EasyRoads3D-Surface.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
-     <None Include="Assets\Rocks\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
+     <None Include="Assets\Terrain Assets\Nox Rocks\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
-     <None Include="Assets\Trees\Nobiax Tree Trunks\Nobiax Free Textures 22.txt" />
+     <None Include="Assets\Terrain Assets\Biar Trees\Nobiax Tree Trunks\Nobiax Free Textures 22.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileLightningCloudShader.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Roads\Shaders\EasyRoads3D-Surface_Alpha.shader" />
-     <None Include="Assets\Trees\Nobiax Free Branches Textures\readme.txt" />
+     <None Include="Assets\Terrain Assets\Biar Trees\Nobiax Free Branches Textures\readme.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
@@ -80,7 +80,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
      <None Include="Assets\city_lowpoly\city_lowpoly.txt" />
-     <None Include="Assets\Trees\Nobiax Leaves\Nobiax Free Textures 17.txt" />
+     <None Include="Assets\Terrain Assets\Biar Trees\Nobiax Leaves\Nobiax Free Textures 17.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
@@ -121,7 +121,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
-     <None Include="Assets\Rocks\Nobiax Free Textures 13 &amp; 14\Nobiax Free Textures 13 &amp; 14.txt" />
+     <None Include="Assets\Terrain Assets\Nox Rocks\Nobiax Free Textures 13 &amp; 14\Nobiax Free Textures 13 &amp; 14.txt" />
      <None Include="Assets\Plugins\Cloud System\Release Notes.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\SoftCloudShader.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
