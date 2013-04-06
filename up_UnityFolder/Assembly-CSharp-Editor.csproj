@@ -93,6 +93,7 @@
      <None Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime.xml" />
      <None Include="Assets\Roads\Shaders\EasyRoads3D Marker.shader" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\LightningCloudShader.shader" />
+     <None Include="Assets\3d_warehouse\farmStuff\barbedWire\textures.txt" />
      <None Include="Assets\3d_warehouse\farmStuff\ffBarnPlacedGE\textures.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\CloudLightingModel.cginc" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
@@ -131,6 +132,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\3d_warehouse\farmStuff\toyboat\textures.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
      <None Include="Assets\Roads\Shaders\Surface.shader" />
