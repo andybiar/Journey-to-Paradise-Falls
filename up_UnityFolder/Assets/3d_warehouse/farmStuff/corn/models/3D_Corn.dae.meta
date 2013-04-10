@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: e5e45b2ac86aa8e4ab413f524c7e4141
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cob
+    100004: Cob 1
+    100006: Corn
+    100008: group_0
+    100010: ID121
+    100012: ID121 1
+    100014: ID121 2
+    100016: ID121 3
+    100018: ID121 4
+    100020: ID121 5
+    100022: ID127
+    100024: ID127 1
+    100026: ID127 2
+    100028: ID127 3
+    100030: ID127 4
+    100032: ID127 5
+    100034: ID142
+    100036: ID40
+    100038: ID40 1
+    100040: ID40 2
+    100042: ID40 3
+    100044: ID46
+    100046: ID46 1
+    100048: ID46 2
+    100050: ID46 3
+    100052: ID50
+    100054: ID50 1
+    100056: ID50 2
+    100058: ID50 3
+    100060: ID54
+    100062: ID54 1
+    100064: ID54 2
+    100066: ID54 3
+    100068: ID91
+    100070: ID97
+    100072: instance_0
+    100074: instance_1
+    100076: instance_10
+    100078: instance_11
+    100080: instance_12
+    100082: instance_13
+    100084: instance_14
+    100086: instance_15
+    100088: instance_16
+    100090: instance_17
+    100092: instance_18
+    100094: instance_19
+    100096: instance_2
+    100098: instance_20
+    100100: instance_21
+    100102: instance_22
+    100104: instance_3
+    100106: instance_4
+    100108: instance_5
+    100110: instance_6
+    100112: instance_7
+    100114: instance_8
+    100116: instance_9
+    100118: Leaf1
+    100120: Leaf1 1
+    100122: Leaf1 2
+    100124: Leaf1 3
+    100126: Leaf2
+    100128: Leaf2 1
+    100130: Leaf2 2
+    100132: Leaf3
+    100134: Leaf3 1
+    100136: Leaf4
+    100138: Leaf4 1
+    100140: Leaf5
+    100142: Leaf5 1
+    100144: Leaf5 2
+    100146: Pollen
+    100148: Pollen 1
+    100150: Pollen 2
+    100152: Pollen 3
+    100154: Pollen 4
+    100156: Pollen 5
+    100158: Stalk
+    400000: //RootNode
+    400002: Cob
+    400004: Cob 1
+    400006: Corn
+    400008: group_0
+    400010: ID121
+    400012: ID121 1
+    400014: ID121 2
+    400016: ID121 3
+    400018: ID121 4
+    400020: ID121 5
+    400022: ID127
+    400024: ID127 1
+    400026: ID127 2
+    400028: ID127 3
+    400030: ID127 4
+    400032: ID127 5
+    400034: ID142
+    400036: ID40
+    400038: ID40 1
+    400040: ID40 2
+    400042: ID40 3
+    400044: ID46
+    400046: ID46 1
+    400048: ID46 2
+    400050: ID46 3
+    400052: ID50
+    400054: ID50 1
+    400056: ID50 2
+    400058: ID50 3
+    400060: ID54
+    400062: ID54 1
+    400064: ID54 2
+    400066: ID54 3
+    400068: ID91
+    400070: ID97
+    400072: instance_0
+    400074: instance_1
+    400076: instance_10
+    400078: instance_11
+    400080: instance_12
+    400082: instance_13
+    400084: instance_14
+    400086: instance_15
+    400088: instance_16
+    400090: instance_17
+    400092: instance_18
+    400094: instance_19
+    400096: instance_2
+    400098: instance_20
+    400100: instance_21
+    400102: instance_22
+    400104: instance_3
+    400106: instance_4
+    400108: instance_5
+    400110: instance_6
+    400112: instance_7
+    400114: instance_8
+    400116: instance_9
+    400118: Leaf1
+    400120: Leaf1 1
+    400122: Leaf1 2
+    400124: Leaf1 3
+    400126: Leaf2
+    400128: Leaf2 1
+    400130: Leaf2 2
+    400132: Leaf3
+    400134: Leaf3 1
+    400136: Leaf4
+    400138: Leaf4 1
+    400140: Leaf5
+    400142: Leaf5 1
+    400144: Leaf5 2
+    400146: Pollen
+    400148: Pollen 1
+    400150: Pollen 2
+    400152: Pollen 3
+    400154: Pollen 4
+    400156: Pollen 5
+    400158: Stalk
+    2300000: Cob
+    2300002: Cob 1
+    2300004: Corn
+    2300006: ID91
+    2300008: ID97
+    2300010: Leaf1
+    2300012: Leaf1 1
+    2300014: Leaf1 2
+    2300016: Leaf1 3
+    2300018: Leaf2
+    2300020: Leaf2 1
+    2300022: Leaf2 2
+    2300024: Leaf3
+    2300026: Leaf3 1
+    2300028: Leaf4
+    2300030: Leaf4 1
+    2300032: Leaf5
+    2300034: Leaf5 1
+    2300036: Leaf5 2
+    2300038: Pollen
+    2300040: Pollen 1
+    2300042: Pollen 2
+    2300044: Pollen 3
+    2300046: Pollen 4
+    2300048: Pollen 5
+    2300050: Stalk
+    3300000: Cob
+    3300002: Cob 1
+    3300004: Corn
+    3300006: ID91
+    3300008: ID97
+    3300010: Leaf1
+    3300012: Leaf1 1
+    3300014: Leaf1 2
+    3300016: Leaf1 3
+    3300018: Leaf2
+    3300020: Leaf2 1
+    3300022: Leaf2 2
+    3300024: Leaf3
+    3300026: Leaf3 1
+    3300028: Leaf4
+    3300030: Leaf4 1
+    3300032: Leaf5
+    3300034: Leaf5 1
+    3300036: Leaf5 2
+    3300038: Pollen
+    3300040: Pollen 1
+    3300042: Pollen 2
+    3300044: Pollen 3
+    3300046: Pollen 4
+    3300048: Pollen 5
+    3300050: Stalk
+    4300000: Corn
+    4300002: Cob
+    4300004: Cob
+    4300006: Leaf3
+    4300008: Leaf1
+    4300010: Leaf5
+    4300012: Leaf2
+    4300014: Leaf4
+    4300016: Stalk
+    4300018: ID91
+    4300020: ID97
+    4300022: Pollen
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 
