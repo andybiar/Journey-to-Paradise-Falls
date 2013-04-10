@@ -13,15 +13,23 @@ public class HouseDriver : MonoBehaviour {
 	public CharacterController controller;
 	
 	private float xmov;
+	private int prevInput = 0;
+	private int newInput = 0;
 
 	// Use this for initialization
 	void Start () {
 		base_speed = forward_speed;
 	}
+	
+	public void NewSteeringInput(int input) {
+		Debug.Log ("House driver received: " + input);
+		prevInput = newInput;
+		newInput = input;
+	}
  
 	// Update is called once per frame
 	void Update () {
-		xmov = 0;
+		xmov = (newInput - prevInput) * Time.deltaTime;
 		
 		// Change the forward speed
 		if (Input.GetKey (KeyCode.Alpha1)) {

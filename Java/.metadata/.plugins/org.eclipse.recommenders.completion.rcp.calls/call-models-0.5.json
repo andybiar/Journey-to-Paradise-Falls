@@ -1,0 +1,17 @@
+{
+  "C:\\AppsFolder\\processing\\libraries\\oscP5\\library\\oscP5.jar": {
+    "location": "C:\\AppsFolder\\processing\\libraries\\oscP5\\library\\oscP5.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\AppsFolder\\processing\\libraries\\oscP5\\library\\oscP5.jar\u0027. Neither fingerprint \u00276a0f5c04a1d16a51d7ddd5b35b1f55ba52922a81\u0027 nor symbolic name \u0027oscP5\u0027 are known."
+  },
+  "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar": {
+    "location": "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar\u0027. Skipped."
+  },
+  "C:\\Projects\\up\\Java\\SerialToOSC\\src": {
+    "location": "C:\\Projects\\up\\Java\\SerialToOSC\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Projects\\up\\Java\\SerialToOSC\\src\u0027. Skipped."
+  }
+}
