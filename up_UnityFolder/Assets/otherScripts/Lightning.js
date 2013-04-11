@@ -5,8 +5,16 @@ var LR : LineRenderer;
 var arcLength = 2.0;
 var arcVariation = 2.0;
 var inaccuracy = 1.0;
+var on: boolean;
 
 function Update() {
+
+	if (!on) {
+		LR.enabled = false;
+		return;
+	}
+	
+	else LR.enabled = true;
 
     var lastPoint = transform.position;
 

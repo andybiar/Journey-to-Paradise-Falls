@@ -1,14 +1,9 @@
-#include <OSCBundle.h>
-#include <OSCMessage.h>
-
-#include <SLIPEncodedSerial.h>
-
 /*
-  Neil Abcouwer
+  Neil Abcouwer and Andy Biar
  
   Uno Encoder
   SigEp Booth 2013
-  2013-04-03
+  2013-04-10
   
   Wiring Instructions
   BLACK->GND
@@ -77,10 +72,7 @@ void setup()
   attachInterrupt(1, doEncoderB, CHANGE);  
 
   Serial.begin (BAUD_RATE);
-  SLIPSerial.begin(BAUD_RATE);
 }
-
-OSCMessage msg;
 
 /* Loop
  *
@@ -98,18 +90,14 @@ void loop()
 //  tickSpeed = ((encoderPos - lastPos)*MILLIS_IN_SECOND)/UPDATE_INTERVAL;
 //  rpmSpeed = (tickSpeed * SECS_IN_MINUTE) / ENCODER_TICKS_PER_REV;
 
-  msg.start("/encoderPos");
-  msg.add(long(encoderPos));
-  msg.sendTo(SLIPSerial);
-  SLIPSerial.endTransmission();
-//  Serial.print(long(encoderPos)); 
+    Serial.print(long(encoderPos)); 
 //  Serial.print("\t"); 
 //  Serial.print(degreePos); 
 //  Serial.print("\t"); 
 //  Serial.print(tickSpeed); 
 //  Serial.print("\t"); 
 //  Serial.print(rpmSpeed); 
-//  Serial.println(); 
+    Serial.println(); 
 }
 
 /* doEncoderA
