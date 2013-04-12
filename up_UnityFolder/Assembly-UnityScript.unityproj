@@ -37,13 +37,42 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Camera\FadeoutLineOfSight.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Camera\OrbitCamera.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Camera\SmoothFollowCamera.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Camera\SmoothLookAt.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Camera\SpringFollowCamera.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Enemies\EnemyDamage.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Enemies\EnemyPoliceGuy.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Enemies\EnemyRespawn.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Enemies\LaserTrap.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\GUI\FPS.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\GUI\GameHUD.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\DroppableMover.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\FenceTextureOffset.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\FuelCellGlowLookAt.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\Jumppad.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\LevelStatus.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\ObjectRotator.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\OneShotParticles.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\Pickup.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Misc\Respawn.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\FalloutDeath.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\JetPackParticleController.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonCharacterAttack.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonController.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPlayerAnimation.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPushBodies.js" />
+     <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonStatus.js" />
+     <Compile Include="Assets\AcceleratorGate.js" />
+     <Compile Include="Assets\Lightning.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\BloomAndLensFlares.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\CameraInfo.js" />
@@ -69,6 +98,7 @@
      <Compile Include="Assets\otherScripts\Lightning.js" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\3D Platformer Tutorial\Textures\Glass\glass.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
@@ -77,6 +107,7 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\Terrain Assets\Nox Rocks\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\3D Platformer Tutorial\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Terrain Assets\Biar Trees\Nobiax Tree Trunks\Nobiax Free Textures 22.txt" />
      <None Include="Assets\Plugins\Cloud System\Resources\Shaders\MobileLightningCloudShader.shader" />
@@ -173,10 +204,10 @@
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\3d_warehouse\farmStuff\treepack\textures.txt" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
- <Reference Include="CloudSystemFree.Runtime">
+ <Reference Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime">
  <HintPath>Assets\Plugins\Cloud System\CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
- <Reference Include="EasyRoads3D">
+ <Reference Include="Assets\Roads\lib\EasyRoads3D">
  <HintPath>Assets\Roads\lib\EasyRoads3D.dll</HintPath>
  </Reference>
   </ItemGroup>
