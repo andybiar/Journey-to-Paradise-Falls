@@ -1,13 +1,19 @@
 #pragma strict
 
+public var isRandom:boolean = true;
+public var myNumber : int;
+
+private var i;
+
 function Start () {
-	var i : int;
 	var randNum;
+	i = myNumber;
 	
-	for(i = 1; i < 8; i++) {
-			randNum = Random.Range(1,4);
+	if (isRandom){
+	
+		randNum = Random.Range(1,4);
 			
-		Debug.Log(randNum);
+		//Debug.Log(randNum);
 			
 		switch(randNum) {
 			case 1:
