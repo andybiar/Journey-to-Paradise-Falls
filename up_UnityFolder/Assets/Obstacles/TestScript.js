@@ -1,6 +1,7 @@
 #pragma strict
 
 public var isRandom:boolean = true;
+public var destroyTwo:boolean = true;
 public var myNumber : int;
 
 private var i;
@@ -18,15 +19,15 @@ function Start () {
 		switch(randNum) {
 			case 1:
 				Destroy(GameObject.Find("Generator"+i+"/B2"));
-				Destroy(GameObject.Find("Generator"+i+"/B3"));
+				if (destroyTwo)Destroy(GameObject.Find("Generator"+i+"/B3"));
 				break;
 			case 2:
 				Destroy(GameObject.Find("Generator"+i+"/B1"));
-				Destroy(GameObject.Find("Generator"+i+"/B3"));
+				if(destroyTwo)Destroy(GameObject.Find("Generator"+i+"/B3"));
 				break;
 			case 3:
 				Destroy(GameObject.Find("Generator"+i+"/B1"));
-				Destroy(GameObject.Find("Generator"+i+"/B2"));
+				if(destroyTwo)Destroy(GameObject.Find("Generator"+i+"/B2"));
 				break;
 		}
 	}

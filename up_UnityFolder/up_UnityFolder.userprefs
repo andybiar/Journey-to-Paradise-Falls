@@ -1,12 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Obstacles\TestScript.js">
-    <Files>
-      <File FileName="Assets\UVScroller.js" Line="17" Column="36" />
-      <File FileName="Assets\otherScripts\DeltaGate.js" Line="27" Column="2" />
-      <File FileName="Assets\Obstacles\TestScript.js" Line="31" Column="2" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

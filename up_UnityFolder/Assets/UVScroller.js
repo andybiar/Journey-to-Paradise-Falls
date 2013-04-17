@@ -14,5 +14,5 @@ function Update ()
     
     renderer.material.SetTextureOffset ("_MainTex", Vector2(0, offset)); // offset/10.0
     
-    renderer.material.color.a = .75;
+    renderer.material.color.a = .85;
 }
