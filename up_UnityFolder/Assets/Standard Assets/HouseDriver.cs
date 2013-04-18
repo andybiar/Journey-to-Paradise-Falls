@@ -15,6 +15,8 @@ public class HouseDriver : MonoBehaviour {
 	private float xmov;
 	private int prevInput = 0;
 	private int newInput = 0;
+	private bool upToDate = false;
+	private float nextRead = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -22,14 +24,19 @@ public class HouseDriver : MonoBehaviour {
 	}
 	
 	public void NewSteeringInput(int input) {
-		Debug.Log ("House driver received: " + input);
-		prevInput = newInput;
-		newInput = input;
+		//Debug.Log ("House driver received: " + input);
+		if (upToDate == true) {
+			nextRead += input;
+			upToDate = false;
+		}
+		else nextRead += input;
 	}
+		
  
 	// Update is called once per frame
 	void Update () {
-		xmov = (newInput - prevInput) * Time.deltaTime;
+		// ROTARY ENCODER X AXIS
+		xmov = nextRead * Time.deltaTime;
 		
 		// Change the forward speed
 		if (Input.GetKey (KeyCode.Alpha1)) {
@@ -42,7 +49,7 @@ public class HouseDriver : MonoBehaviour {
 			forward_speed = base_speed * 2.6f;
 		}
 		
-		///////// X Axis - Controlled by user input
+		///////// X Axis - BACKUP CONTROLS
 		if ( Input.GetKey (KeyCode.D) ) {
 			xmov += lr_speed * Time.deltaTime;
 		}
@@ -51,8 +58,12 @@ public class HouseDriver : MonoBehaviour {
 		}
 		
 		//////// Built In (up/down balloon movement) Z on the jank
-		if (transform.position.y < max_height) {
+		if (transform.position.y < max_height && up_speed > 0) {
 			transform.position += Vector3.up * up_speed * Time.deltaTime;
+		}
+		
+		if (transform.position.y > max_height) {
+			transform.position -= Vector3.up * up_speed * Time.deltaTime;
 		}
 		
 		//////// forward motion, affected by powerups/obstacles) -Y on the jank
@@ -60,5 +71,9 @@ public class HouseDriver : MonoBehaviour {
 		
 		Vector3 movdir = new Vector3(xmov, 0, 0);
 		controller.Move(movdir);
+		
+		// Update the reader
+		upToDate = true;
+		nextRead = 0;
 	}
 }

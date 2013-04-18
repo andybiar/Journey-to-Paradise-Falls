@@ -37,10 +37,10 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -71,7 +71,6 @@
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPlayerAnimation.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonPushBodies.js" />
      <Compile Include="Assets\3D Platformer Tutorial\Scripts\Player\ThirdPersonStatus.js" />
-     <Compile Include="Assets\AcceleratorGate.js" />
      <Compile Include="Assets\Obstacles\TestScript.js" />
      <Compile Include="Assets\UVScroller.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\AntialiasingAsPostEffect.js" />
@@ -96,6 +95,7 @@
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\Triangles.js" />
      <Compile Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\Vignetting.js" />
      <Compile Include="Assets\otherScripts\DeltaGate.js" />
+     <Compile Include="Assets\otherScripts\FaceCurrentCam.js" />
      <Compile Include="Assets\otherScripts\Lightning.js" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
@@ -207,13 +207,13 @@
      <None Include="Assets\3d_warehouse\farmStuff\treepack\textures.txt" />
      <None Include="Assets\reflectiveTransparentRefractive.shader" />
      <None Include="Assets\city_lowpoly\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
- <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
- <Reference Include="Assets\Plugins\Cloud System\CloudSystemFree.Runtime">
+ <Reference Include="CloudSystemFree.Runtime">
  <HintPath>Assets\Plugins\Cloud System\CloudSystemFree.Runtime.dll</HintPath>
  </Reference>
- <Reference Include="Assets\Roads\lib\EasyRoads3D">
+ <Reference Include="EasyRoads3D">
  <HintPath>Assets\Roads\lib\EasyRoads3D.dll</HintPath>
  </Reference>
   </ItemGroup>

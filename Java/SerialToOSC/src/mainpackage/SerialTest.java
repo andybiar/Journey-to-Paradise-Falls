@@ -104,6 +104,7 @@ public class SerialTest implements SerialPortEventListener {
 				OscMessage myMessage = new OscMessage("/test");
 				myMessage.add(input);
 				oscP5.send(myMessage, myRemoteLocation);
+				Thread.sleep(20); // If we had a successful read then slow down the data flow
 				
 			} catch (Exception e) {
 				//System.err.println(e.toString());
