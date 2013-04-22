@@ -1,6 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\HouseDriver.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\HouseDriver.cs" Line="47" Column="24" />
+      <File FileName="Assets\Standard Assets\CamControl.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\PlaneControl.js" Line="1" Column="1" />
+      <File FileName="Assets\otherScripts\DeltaGate.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

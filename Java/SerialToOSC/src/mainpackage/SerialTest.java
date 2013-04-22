@@ -35,6 +35,7 @@ public class SerialTest implements SerialPortEventListener {
 	
 	private OscP5 oscP5;
 	private NetAddress myRemoteLocation;
+	private int previousData=-1;
 
 	public void initialize() {
 		CommPortIdentifier portId = null;
@@ -101,10 +102,13 @@ public class SerialTest implements SerialPortEventListener {
 				String inputLine=input.readLine();
 				System.out.println(inputLine);
 				int input = Integer.parseInt(inputLine);
+				if (input == previousData) return;
+				
+				previousData = input;
 				OscMessage myMessage = new OscMessage("/test");
 				myMessage.add(input);
 				oscP5.send(myMessage, myRemoteLocation);
-				Thread.sleep(20); // If we had a successful read then slow down the data flow
+				Thread.sleep(16); // If we had a successful read then slow down the data flow
 				
 			} catch (Exception e) {
 				//System.err.println(e.toString());

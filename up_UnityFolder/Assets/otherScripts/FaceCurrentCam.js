@@ -8,8 +8,9 @@ function setCam(newcam:Camera) {
 
 function Update () {
 	transform.LookAt(cam.transform);
+	
 	var euler:Vector3 = transform.rotation.eulerAngles;
 	euler.z = 0;
-	euler.y = 0;
+	euler.x = 0;
 	transform.rotation = Quaternion.Euler(euler);
 }

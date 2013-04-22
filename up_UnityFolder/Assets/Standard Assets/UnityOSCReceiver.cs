@@ -1,0 +1,112 @@
+using UnityEngine;
+using System;
+using System.Threading;
+using System.Collections;
+using System.Collections.Generic;
+
+using OSC.NET;
+
+public class UnityOSCReceiver : MonoBehaviour {
+	
+	private bool connected = false;
+	public HouseDriver target;
+	public int port = 8338;
+	private OSCReceiver receiver;
+	private Thread thread;
+	public bool menu = false;
+	private int prevInput;
+	private bool firstRun=true;
+	
+	private List<OSCMessage> processQueue = new List<OSCMessage>();
+	
+	public UnityOSCReceiver() {}
+
+	public int getPort() {
+		return port;
+	}
+			
+	public void Start() {
+		try {
+			Debug.Log("connected");
+			connected = true;
+			receiver = new OSCReceiver(port);
+			thread = new Thread(new ThreadStart(listen));
+			thread.Start();
+		} catch (Exception e) {
+			Debug.Log("failed to connect to port "+port);
+			Debug.Log(e.Message);
+		}
+	}
+	
+	/**
+	 * Call update every frame in order to dispatch all messages that have come
+	 * in on the listener thread
+	 */
+	public void Update() {
+		//processMessages has to be called on the main thread
+		//so we used a shared proccessQueue full of OSC Messages
+		lock(processQueue){
+			foreach( OSCMessage message in processQueue){
+				if (menu) {
+					if (firstRun) {
+						prevInput = (int)message.Values[0];
+						firstRun = false;
+						break;
+					}
+					else if (Math.Abs((int)message.Values[0]-prevInput) > 3) {
+						disconnect();
+						Application.LoadLevel(1);
+					}
+				}
+				
+				else target.NewSteeringInput((int)message.Values[0]);
+			}
+			processQueue.Clear();
+		}
+		// debug
+		if (Input.GetKey(KeyCode.A)) {
+			disconnect();
+			Application.LoadLevel(1);
+		}
+	}
+	
+	public void OnApplicationQuit(){
+		disconnect();
+	}
+	
+	public void disconnect() {
+      	if (receiver!=null){
+      		 receiver.Close();
+      	}
+      	
+       	receiver = null;
+		connected = false;
+	}
+
+	public bool isConnected() { return connected; }
+
+	private void listen() {
+		while(connected) {
+			try {
+				OSCPacket packet = receiver.Receive();
+				if (packet!=null) {
+					lock(processQueue){
+						
+						//Debug.Log( "adding  packets " + processQueue.Count );
+						if (packet.IsBundle()) {
+							ArrayList messages = packet.Values;
+							for (int i=0; i<messages.Count; i++) {
+								processQueue.Add( (OSCMessage)messages[i] );
+							}
+						} else{
+							processQueue.Add( (OSCMessage)packet );
+						}
+					}
+				} else Console.WriteLine("null packet");
+			} catch (Exception e) { 
+				Debug.Log( e.Message );
+				Console.WriteLine(e.Message); 
+			}
+		}
+	}
+}
